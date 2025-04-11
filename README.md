@@ -52,5 +52,12 @@ Pensada para mostrar el diseño y estructura general sin lógica funcional ni pr
 
 ### Construcción de la imagen:
 
-```bash
+``` bash
  docker build -t jardin-encantado .
+```
+
+### Desplegar el contenedor:
+
+``` bash
+docker run -it --rm -d -p 8080:80 --name web1 web .
+```

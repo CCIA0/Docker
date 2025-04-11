@@ -59,5 +59,5 @@ Pensada para mostrar el diseño y estructura general sin lógica funcional ni pr
 ### Desplegar el contenedor:
 
 ``` bash
-docker run -it --rm -d -p 8080:80 --name web1 web .
+docker run -it --rm -d -p 8080:80 --name web jardin-encantado .
 ```
